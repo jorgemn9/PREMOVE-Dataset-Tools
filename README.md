@@ -65,7 +65,7 @@ python3 data_synchronizer.py $path_to_dataset_folder$ --tolerance-ms 60 --link c
 
 ### GNSS synchronization
 ```bash
-python3 extract_gnss.py $path_to_gnss_bag$
+python3 gnss_synchronizer.py $path_to_gnss_bag$
 ```
 ## Create dataset in nuScenes-like format
 ```bash
